@@ -21,7 +21,7 @@ Production-grade platform for generating, validating, and deploying Algorand PyT
 
 ### Installation
 
-$ git clone <repository-url>
+$ git clone <add-repository-url>
 $ cd algorand-ai-contract-creator
 $ python3 -m venv venv
 $ source venv/bin/activate # On Windows: venv\Scripts\activate
@@ -30,9 +30,9 @@ $ pip install -r requirements.txt
 ### Configuration
 
 Create `.env` file:
-OPENAI_API_KEY=sk-your-key-here
+OPENAI_API_KEY=paste-your-key-here
 ALGOD_TOKEN=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-ALGOD_ADDRESS=https://testnet-api.algonode.cloud
+ALGOD_ADDRESS=https://testnet-api.algonode.cloud   (testnet address)
 
 
 
@@ -75,9 +75,9 @@ $ pytest test_contracts.py -v
 
 ## 📊 Performance Metrics
 
-- **Compilation Success Rate**: 97%+ (tested on 50+ samples)
-- **Average Generation Time**: 8-12 seconds
-- **Retry Rate**: <15%
+- **Compilation Success Rate**:TBC
+- **Average Generation Time**: TBC
+- **Retry Rate**: TBC
 - **Security Compliance**: EU AI Act Tier 2, IEEE EAD
 
 ## 🛠️ Architecture
