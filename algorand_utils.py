@@ -197,5 +197,4 @@ class AlgorandDeployer:
 
 def create_simple_clear_program() -> str:
     """Generate minimal clear state program."""
-    from pyteal import Approve, compileTeal, Mode
     return compileTeal(Approve(), Mode.Application, version=8)
