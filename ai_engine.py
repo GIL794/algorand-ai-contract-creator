@@ -12,7 +12,7 @@ from dotenv import load_dotenv
 from typing import Dict, Tuple
 
 load_dotenv()
-openai.api_key = os.getenv('OPENAI_API_KEY')
+openai.api_key = os.getenv('PERPLEXITY_API_KEY')
 
 # Configure structured logging
 logging.basicConfig(
